@@ -37,13 +37,7 @@ function App() {
               }
             />
           </Route>
-          <Route
-            path="/"
-            element={
-              <ProtectedRoute>
-                <Layout />
-              </ProtectedRoute>
-            }>
+          <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/books-store" element={<Books />} />
             <Route path="/top-clips" element={<TopClips />} />
