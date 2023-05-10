@@ -1,0 +1,20 @@
+.navCon{
+    width: 90vw;
+   
+}
+.navitemsCon{
+    width: 40vw;
+}
+.navMainCon{
+    background-color:#F0F0F0	;
+}
+.active{
+    color: orange !important;
+}
+.navItemLi{
+    all: unset;
+}
+.navItemLi:hover{
+    all: unset;
+    cursor: pointer;
+}
